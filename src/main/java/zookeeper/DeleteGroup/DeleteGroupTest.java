@@ -11,7 +11,7 @@ import java.io.IOException;
  * Created by yaosheng on 2017/1/17.
  */
 public class DeleteGroupTest {
-    private static final String HOSTS = "121.42.8.85:2181";
+    private static final String HOSTS = "xxx:2181";
     private static final String groupName = "zoo";
 
     private DeleteGroup deleteGroup = null;

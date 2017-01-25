@@ -6,7 +6,7 @@
     <dubbo:application name="consumer-hello-app"  />
 
     <!-- 使用zookeeper注册中心暴露发现服务地址 -->
-    <dubbo:registry protocol="zookeeper" address="121.42.8.85:2181,121.42.8.85:2182,121.42.8.85:2183" />
+    <dubbo:registry protocol="zookeeper" address="xxx:2181,xxx:2182,xxx:2183" />
 
     <!-- 生成远程服务代理，可以和本地bean一样使用demoService
         这里的接口包，必须和发布的服务中的一致

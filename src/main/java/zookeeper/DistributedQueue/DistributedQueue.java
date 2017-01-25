@@ -30,9 +30,9 @@ public class DistributedQueue {
 
     //以此在集群的3台机器上加入某成员
     public static void doAction(int client) throws Exception {
-        String host1 = "121.42.8.85:2181";
-        String host2 = "121.42.8.85:2182";
-        String host3 = "121.42.8.85:2183";
+        String host1 = "xxx:2181";
+        String host2 = "xxx:2182";
+        String host3 = "xxx:2183";
         ZooKeeper zk = null;
         switch (client) {
             case 1:

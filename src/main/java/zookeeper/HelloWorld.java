@@ -11,7 +11,7 @@ public class HelloWorld {
 
     public static void main(String[] args) throws IOException, InterruptedException, KeeperException {
         //此语句执行完后执行process方法
-        ZooKeeper zk = new ZooKeeper("121.42.8.85:2181", 300000, new DemoWatcher());//连接zk server
+        ZooKeeper zk = new ZooKeeper("xxx:2181", 300000, new DemoWatcher());//连接zk server
 
         String node = "/app1";
         Stat stat = zk.exists(node, false);//检测/app1是否存在

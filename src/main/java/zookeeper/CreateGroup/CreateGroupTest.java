@@ -11,7 +11,7 @@ import java.io.IOException;
  * Created by yaosheng on 2017/1/16.
  */
 public class CreateGroupTest {
-    private static String hosts = "121.42.8.85:2181";
+    private static String hosts = "xxx:2181";
     private static String groupName = "zoo";
 
     private CreateGroup createGroup = null;
